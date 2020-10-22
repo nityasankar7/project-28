@@ -24,13 +24,15 @@ function setup() {
   box6=new Box (360,195,30,40);
   box7=new Box (390,195,30,40);
   box8=new Box (420,195,30,40);
+   box9=new Box (390,155,30,40);
  // slingshot1= new SlingShot(this.Polygon,{x:100,y:200})
+   polygon2=new polygon(100,300,40);
  sling1= new SlingShot (polygon2.body,{x:300,y:50})
 
 
-  box9=new Box (390,155,30,40);
+ 
 
-  polygon2=new polygon(100,300,40);
+ 
 
   /*image(img, 0, 0);
   image(img, 50, 0, 40, 20, 50, 50, 50, 50);*/
